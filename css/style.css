@@ -1,0 +1,407 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+}
+/* --------------- HEADER ---------------  */
+
+header {
+  background-image: linear-gradient(to left, #997a00, #333333);
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  box-shadow: 5px 0 10px rgba(0, 0, 0 0.6);
+}
+
+.cajaLogo {
+  color: #fff;
+  font-size: 35px;
+  padding: 0 80px;
+  font-weight: bold;
+}
+
+.listaMenuCabecera {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.listaMenuCabecera li {
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+.listaMenuCabecera li a {
+  color: #fff;
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.listaMenuCabecera li:hover {
+  background-color: #997a00;
+}
+
+p {
+  color: #fff;
+}
+
+#logoHeader {
+  width: 200px;
+}
+
+/* --------------- HOME ---------------  */
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+/* --------------- CURSOS---------------  */
+/* 
+.contenedorCurso01,
+.contenedorCurso02,
+.contenedorCurso03,
+.contenedorCurso04 {
+  width: 300px;
+  height: 300px;
+  background-color: #997a00;
+  color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+  display: flexbox;
+  justify-content: center;
+  align-content: center;
+}
+
+.contenedorCurso01 p,
+.contenedorCurso02 p,
+.contenedorCurso03 p,
+.contenedorCurso04 p {
+  background-color: #997a00;
+  text-align: justify;
+  margin: 5px;
+}
+.imagenCurso01 {
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
+}
+
+.contenedorCurso01 img,
+.contenedorCurso02 img,
+.contenedorCurso03 img,
+.contenedorCurso04 img {
+  width: 200px;
+  height: 200px;
+}
+
+.cursos {
+  padding: 15px 10px 15px 10px;
+  background-color: #997a00;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.contenedorCurso01 h2,
+.contenedorCurso02 h2,
+.contenedorCurso03 h2,
+.contenedorCurso04 h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.curso01,
+.curso02,
+.curso03,
+.curso04 {
+  padding: 15px 10px 15px 10px;
+  background-color: #997a00;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.curso01 h2 {
+  color: #fff;
+  text-align: left;
+}
+
+.curso02 h2 {
+  color: #fff;
+  text-align: right;
+}
+
+.curso03 h2 {
+  color: #fff;
+  text-align: left;
+}
+
+.curso04 h2 {
+  color: #fff;
+  text-align: right;
+}
+
+/* --------------- MASTER ---------------  */
+
+.master {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+#master {
+  background-color: #343a40;
+  color: white;
+}
+
+#master img {
+  max-width: 100%;
+}
+
+.masterIndex {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 15px 10px 15px 10px;
+  background-color: #997a00;
+  margin: 10px;
+  border-radius: 12px;
+}
+.imagenMasterIndex img {
+  width: 600px;
+  object-fit: cover;
+}
+
+.textoMasterIndex p {
+  background-color: #997a00;
+}
+
+.imagenMasterIndex {
+  background-color: #997a00;
+}
+
+.imagenMaster {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  margin: 5px;
+}
+
+.infoMaster h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.infoMaster p {
+  border-radius: 12px;
+  margin: 15px;
+}
+
+.infoMaster {
+  align-self: center;
+}
+
+.buttonMaster {
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #997a00;
+  font-weight: bold;
+  padding: 12px 24px;
+  margin-bottom: 15px;
+  margin-left: 200px;
+}
+
+.galeriaMaster {
+  margin: 25px 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, 200px));
+  grid-auto-rows: 1fr;
+  gap: 10px;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.galeriaItem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.galeriaItem_1f {
+  grid-area: 1 / 1 / 2 / 5;
+}
+
+.galeriaItem_2f {
+  grid-area: 2 / 1 / 2 / 3;
+}
+
+.galeriaItem_3f {
+  grid-area: 2 / 5 / 2 / 3;
+}
+
+.galeriaItem_4f {
+  grid-area: 3 / 1 / 3 / 5;
+}
+
+.galeriaMaster img:hover {
+  transform: scale(1.5);
+}
+
+/* --------------- QUIENES SOMOS ---------------  */
+
+.quienesSomos {
+  padding: 15px 10px 15px 10px;
+  background-color: #997a00;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.quienesSomos h2 {
+  color: #fff;
+}
+
+.quienesSomosImagen img {
+  width: 100vh;
+  height: 300px;
+}
+
+#quienesomos {
+  filter: grayscale(100%);
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+#quienesomos img {
+  max-width: 100%;
+}
+
+/* --------------- CONTACTO ---------------  */
+.contacto {
+  padding: 15px 10px 15px 10px;
+  background-color: #997a00;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.contacto h2 {
+  color: #fff;
+}
+.formularioContacto {
+  color: #fff;
+  text-align: center;
+}
+*/
+
+/* --------------- FOOTER ---------------  */
+
+.contenedorFooter {
+  background-image: linear-gradient(to right, #997a00, #333333);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menuFooter {
+  list-style: none;
+}
+.menuFooter li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menuRedesSociales {
+  display: flex;
+  list-style: none;
+}
+
+.menuRedesSociales li {
+  margin: 0 5px;
+}
+
+.menuRedesSociales li a {
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+}
+
+/* -------------------------------------------------------*/
+/* --------------------- Responsive   --------------------*/
+/* -------------------------------------------------------*/
+@media only screen and (min-width: 320px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+  .listaMenuCabecera {
+    flex-direction: column;
+  }
+
+  .cursos {
+    height: auto;
+  }
+  .contenedorCurso01,
+  .contenedorCurso02,
+  .contenedorCurso03,
+  .contenedorCurso04 {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  .listaMenuCabecera {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    flex-direction: row;
+  }
+  .listaMenuCabecera {
+    flex-direction: row;
+  }
+}
