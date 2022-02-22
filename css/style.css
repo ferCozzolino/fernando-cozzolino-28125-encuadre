@@ -26,6 +26,44 @@ footer {
   text-align: center;
 }
 
+.contacto {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#997a00), to(#333333));
+  background-image: linear-gradient(to bottom, #997a00, #333333);
+  height: 500px;
+  margin-bottom: 5px;
+}
+
+.contacto h2 {
+  color: #ffffff;
+}
+
+.formularioContacto {
+  color: #ffffff;
+  text-align: center;
+}
+
+#input-nombre,
+#input-apellido {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+#select-cursos {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+#textarea-consulta {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;

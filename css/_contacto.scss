@@ -1,0 +1,41 @@
+// Paleta de colores
+$color-negro: #111111;
+$color-blanco: #ffffff;
+$color-ocre: #997a00;
+$color-gris: #333333;
+
+.contacto {
+  background-image: linear-gradient(to bottom, $color-ocre, $color-gris);
+  height: 500px;
+  margin-bottom: 5px;
+}
+
+.contacto h2 {
+  color: $color-blanco;
+}
+.formularioContacto {
+  color: $color-blanco;
+  text-align: center;
+}
+
+#input-nombre,
+#input-apellido {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+#select-cursos {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+#textarea-consulta {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}

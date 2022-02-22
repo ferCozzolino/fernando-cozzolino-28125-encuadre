@@ -53,14 +53,43 @@
         </div>
         </header>
     <!-- ### FIN DEL HEADER ### -->
-    
+    <section class="contacto">
+      <h1 class="tituloSeccion">Contacto</h1>      
+      <form class="formularioContacto" action="#">
+          
+          <input id="input-nombre" type="text" name="nombre" placeholder="Nombre">
+          <br>            
+          <input id="input-apellido" type="text" name="apellido" placeholder="Apellido">
+          <br>
+          <h2 class="titulo">Cual curso te interesa?</h4>
+          <select id="select-cursos" name="cursos">
+              <option>Analisis Filmico</option>
+              <option>Musica del Cine</option>
+              <option>Guión</option>
+              <option>Documental</option>
+              <option>Master</option>
+          </select>
+          <br>
+          <br>
+          <textarea id="textarea-consulta" name="areaconsulta"  cols="30" rows="5" placeholder="Dejanos por favor tu consulta aca"></textarea>
+          <br>
+          <label for="si">Deseas recibir noticias de cursos nuevos?</label>
+          <input type="checkbox" name="opciones">
+          <br>
+          <button type="button" class="btn btn-warning">Enviar</button>
+          <button type="button" class="btn btn-dark">Borrar</button>
+      </form>
+  </section>      
+  
+      
+
     <!-- ### FOOTER ### -->
        <footer >
         <div class="container">
           <nav  class="row">
             <a href="#" class="col-4 text-reset text-uppercase d-flex align-items-center">Encuadre</a>
             <ul id="mapaSitio" class="col-4 list-unstyled">
-              <h2>Mapa de Sitio</h2>
+              
               <li class="font-weight-bold text-uppercase mt-4">Mapa del Sitio</li>
               <li><a href="index.html" class="text-reset">Home</a></li>
               <li><a href="cursos.html" class="text-reset">Cursos</a></li>
