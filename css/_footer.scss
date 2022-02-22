@@ -1,0 +1,26 @@
+// Paleta de colores
+$color-negro: #111111;
+$color-blanc0: #ffffff;
+$color-ocre: #997a00;
+$color-gris: #333333;
+
+footer {
+  background-image: linear-gradient(to right, $color-ocre, $color-gris);
+  color: $color-blanc0;
+  margin-top: 10px;
+}
+
+#mapaSitio {
+  list-style: none;
+}
+
+#mapaSitio li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: small;
+}
+
+#copyright {
+  color: #fff;
+  text-align: center;
+}
