@@ -1,0 +1,68 @@
+// Paleta de colores
+$color-negro: #111111;
+$color-blanco: #ffffff;
+$color-ocre: #997a00;
+$color-gris: #333333;
+
+/* -----------------------Main------------------------------ */
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: $color-blancos;
+  z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+/* -----------------------Master------------------------------ */
+
+#master {
+  background-image: linear-gradient(to bottom, $color-ocre, $color-gris);
+  color: $color-blanco;
+}
+
+/* -----------------------Cursos------------------------------ */
+
+#cursos {
+  background-image: linear-gradient(to bottom, $color-ocre, $color-gris);
+  color: $color-blanco;
+}
+
+#master img {
+  max-width: 100%;
+}
+
+/* -----------------------Quienes Somos------------------------------ */
+
+#quienesomos {
+  filter: grayscale(100%);
+  background-image: linear-gradient(to bottom, $color-ocre, $color-gris);
+  color: $color-negro;
+}
+
+#quienesomos img {
+  max-width: 100%;
+}
+/* -----------------------Formulario------------------------------ */
+
+#formulario {
+  background-image: linear-gradient(to bottom, $color-ocre, $color-gris);
+}
