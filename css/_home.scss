@@ -36,16 +36,17 @@ $color-gris: #333333;
 
 #master {
   background-image: linear-gradient(to bottom, $color-ocre, $color-gris);
-  color: $color-blanco;
 }
 
 /* -----------------------Cursos------------------------------ */
 
 #cursos {
   background-image: linear-gradient(to bottom, $color-ocre, $color-gris);
-  color: $color-blanco;
 }
 
+.card-text {
+  color: $color-negro;
+}
 #master img {
   max-width: 100%;
 }

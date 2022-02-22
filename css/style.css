@@ -1,11 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap");
 #contenedor-nav {
-  background-image: -webkit-gradient(linear, right top, left top, from(#997a00), to(#333333));
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#997a00),
+    to(#333333)
+  );
   background-image: linear-gradient(to left, #997a00, #333333);
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right top, from(#997a00), to(#333333));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#997a00),
+    to(#333333)
+  );
   background-image: linear-gradient(to right, #997a00, #333333);
   color: #ffffff;
   margin-top: 10px;
@@ -27,7 +39,13 @@ footer {
 }
 
 .contacto {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#997a00), to(#333333));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#997a00),
+    to(#333333)
+  );
   background-image: linear-gradient(to bottom, #997a00, #333333);
   height: 500px;
   margin-bottom: 5px;
@@ -68,9 +86,9 @@ footer {
 #main .carousel-inner img {
   max-height: 70vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-filter: grayscale(70%);
-          filter: grayscale(70%);
+  filter: grayscale(70%);
 }
 
 #carousel {
@@ -95,16 +113,27 @@ footer {
 
 /* -----------------------Master------------------------------ */
 #master {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#997a00), to(#333333));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#997a00),
+    to(#333333)
+  );
   background-image: linear-gradient(to bottom, #997a00, #333333);
   color: white;
 }
 
 /* -----------------------Cursos------------------------------ */
 #cursos {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#997a00), to(#333333));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#997a00),
+    to(#333333)
+  );
   background-image: linear-gradient(to bottom, #997a00, #333333);
-  color: white;
 }
 
 #master img {
@@ -114,8 +143,14 @@ footer {
 /* -----------------------Quienes Somos------------------------------ */
 #quienesomos {
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#997a00), to(#333333));
+  filter: grayscale(100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#997a00),
+    to(#333333)
+  );
   background-image: linear-gradient(to bottom, #997a00, #333333);
   color: black;
 }
@@ -126,7 +161,13 @@ footer {
 
 /* -----------------------Formulario------------------------------ */
 #formulario {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#997a00), to(#333333));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#997a00),
+    to(#333333)
+  );
   background-image: linear-gradient(to bottom, #997a00, #333333);
 }
 
@@ -134,7 +175,7 @@ footer {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
