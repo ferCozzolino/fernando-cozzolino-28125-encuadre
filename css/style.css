@@ -1,4 +1,21 @@
+/*  GENERAL  */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #111111;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap");
+
+/*  CABECERA  */
+
 #contenedor-nav {
   background-image: -webkit-gradient(
     linear,
@@ -10,6 +27,10 @@
   background-image: linear-gradient(to left, #997a00, #333333);
 }
 
+/*  FIN CABECERA  */
+
+/*  Footer  */
+
 footer {
   background-image: -webkit-gradient(
     linear,
@@ -20,23 +41,25 @@ footer {
   );
   background-image: linear-gradient(to right, #997a00, #333333);
   color: #ffffff;
-  margin-top: 10px;
+  
 }
 
-#mapaSitio {
-  list-style: none;
-}
-
-#mapaSitio li a {
-  color: #fff;
+#logoFooter {
   text-decoration: none;
-  font-size: small;
+  font-size: x-large;
+  font-weight: bolder;
 }
+
+
 
 #copyright {
   color: #fff;
   text-align: center;
 }
+
+/*  Fin Footer  */
+
+/*  CONTACTO  */
 
 .contacto {
   background-image: -webkit-gradient(
@@ -46,9 +69,8 @@ footer {
     from(#997a00),
     to(#333333)
   );
-  background-image: linear-gradient(to bottom, #997a00, #333333);
-  height: 500px;
-  margin-bottom: 5px;
+  background-image: linear-gradient(to bottom, #997a00, #333333); 
+  padding: 10px; 
 }
 
 .contacto h2 {
@@ -82,7 +104,10 @@ footer {
   text-align: center;
 }
 
-/* -----------------------Main------------------------------ */
+/*  FIN CONTACTO  */
+
+/*  MAIN  */
+
 #main .carousel-inner img {
   max-height: 70vh;
   -o-object-fit: cover;
@@ -110,8 +135,10 @@ footer {
 #carousel .overlay .row {
   height: 100%;
 }
+/*  FIN MAIN  */
 
-/* -----------------------Master------------------------------ */
+/*  MASTER  */
+
 #master {
   background-image: -webkit-gradient(
     linear,
@@ -124,7 +151,10 @@ footer {
   color: white;
 }
 
-/* -----------------------Cursos------------------------------ */
+/*  FIN MASTER  */
+
+
+/*  CURSOS  */
 #cursos {
   background-image: -webkit-gradient(
     linear,
@@ -140,10 +170,11 @@ footer {
   max-width: 100%;
 }
 
-/* -----------------------Quienes Somos------------------------------ */
+/*  FIN CURSOS  */
+
+/*  QUIENES SOMOS  */
+
 #quienesomos {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -152,14 +183,17 @@ footer {
     to(#333333)
   );
   background-image: linear-gradient(to bottom, #997a00, #333333);
-  color: black;
+  color: white
 }
 
 #quienesomos img {
   max-width: 100%;
 }
 
-/* -----------------------Formulario------------------------------ */
+/*  FIN QUIENES SOMOS  */
+
+
+/*  CONTACTO  */
 #formulario {
   background-image: -webkit-gradient(
     linear,
@@ -170,16 +204,7 @@ footer {
   );
   background-image: linear-gradient(to bottom, #997a00, #333333);
 }
+/*  FIN CONTACTO  */
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: "Raleway", sans-serif;
-  background-color: #111111;
-}
 /*# sourceMappingURL=style.css.map */

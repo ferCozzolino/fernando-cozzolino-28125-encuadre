@@ -7,17 +7,13 @@ $color-gris: #333333;
 footer {
   background-image: linear-gradient(to right, $color-ocre, $color-gris);
   color: $color-blanc0;
-  margin-top: 10px;
+
 }
 
-#mapaSitio {
-  list-style: none;
-}
-
-#mapaSitio li a {
-  color: #fff;
+#logoFooter {
   text-decoration: none;
-  font-size: small;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 #copyright {
